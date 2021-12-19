@@ -26,6 +26,7 @@ but on the raw content page, which is way nastier.
 # todo
 rookie level:
 ```
+'$('  # the combo breaks the url
 '<'
 '>'
 ```
