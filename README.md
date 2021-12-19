@@ -12,7 +12,7 @@ Bypassing the rookie level will get you to this point.
 Bypassing the god-like level will get you the same,   
 but on the raw content page, which is way nastier.  
 TLDR:  
-imagine a file called ";ls" but with nontrivial commands that when pasted in the terminal
+imagine a file called ";ls" but with nontrivial commands that when pasted in the terminal  
 like ```wget http://localhost/;ls``` executes the payload
 
 # bypassed
