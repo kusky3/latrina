@@ -19,7 +19,7 @@ now imagine this but with the "raw" button
 ' '
 ```
 
-# TODO
+# todo
 rookie level:
 ```
 '<'
