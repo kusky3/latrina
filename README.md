@@ -50,5 +50,5 @@ god-like level:
 '$'
 ';'
 ```
-it's not easy but it's doable, we can use two apostrophes to start the command ''
-but then we are left without the possibilty to set variables and separate commands
+it's not easy but it's doable, we can use two apostrophes and a redirect to start the command ''>
+but then we are left without the possibilty to set variables and separate commands.
