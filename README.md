@@ -12,10 +12,11 @@ now imagine this but with the "raw" button
 
 # bypassed
 ```
-"
-{
-}
-' ' # space
+'"'
+'{'
+'}'
+'|'
+' '
 ```
 
 # TODO
