@@ -25,7 +25,7 @@ rookie level:
 '<'
 '>'
 ```
-rce level:
+god-like level:
 ```
 '$'
 ';'
