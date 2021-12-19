@@ -22,13 +22,13 @@ now imagine this but with the "raw" button
 # TODO
 rookie level:
 ```
-<
->
+'<'
+'>'
 ```
 rce level:
 ```
-$
-;
-<
->
+'$'
+';'
+'<'
+'>'
 ```
