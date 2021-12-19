@@ -34,7 +34,6 @@ but you still need to bypass the "<"
 '/'   # needed for paths, bypassed by encoding the payload with base64
 '&'   # needed to begin the command execution, replaced by ";"
 '&&'  # same as above
-'>'   # needed for redirection, replaced by "<"
 ```
 
 # todo
