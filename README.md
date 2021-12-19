@@ -1,5 +1,5 @@
 # latrina
-bypass url encoding with nontrivial commands
+bypass url encoding for nontrivial shell commands
 
 * click on the "Go to file" button
 * click on the weirdly named file
