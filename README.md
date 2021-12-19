@@ -27,6 +27,7 @@ but on the raw content page, which is way nastier.
 rookie level:
 ```
 '<'
+'>'
 ```
 
 god-like level:
