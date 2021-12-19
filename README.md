@@ -1,4 +1,5 @@
 # latrina
+### WARNING: schizo repo, ignore
 bypass url encoding for nontrivial shell commands
 
 * click on the "Go to file" button
