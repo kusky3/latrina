@@ -14,7 +14,7 @@ the payload is executed. Can we bypass the entire url encoding set and execute n
 
 # testing
 use this waf and apply the url encoding patches  
-https://raw.githubusercontent.com/theMiddleBlue/challenge-bypass-input-validation/main/index.php
+https://raw.githubusercontent.com/theMiddleBlue/challenge-bypass-input-validation/main/index.php  
 or try to encode the payload directly  
 https://gchq.github.io/CyberChef/#recipe=URL_Encode(false)
 # markdown
