@@ -14,7 +14,7 @@ but on the raw content page, which is way nastier.
 
 # bypassed
 ```
-'"' # needed to set string type variables, bypassed with ('variable')
+'"' # needed to set string variables, bypassed with ('variable')
 '{' # needed for ${IFS}, bypassed by concatenating $ or - after them
 '}' # same as above
 '|' # needed for command1 | command2, bypassed with command2 < <(command1)
