@@ -56,3 +56,4 @@ god-like level:
 '$'
 ';'
 ```
+should be impossible since you can't use variables nor "start" the command execution
