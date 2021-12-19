@@ -25,6 +25,7 @@ of course this doesn't happen when escaping the url
 ' '   # needed as arguments separator, bypassed with $IFS
 '<<<' # same as the "|" bypass
 '>>>' # same as above
+'/'   # needed for paths, bypassed by encoding the payload with base64
 ```
 
 # todo
