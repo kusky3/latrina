@@ -3,7 +3,7 @@ bypass url encoding for nontrivial shell commands
 
 * click on the "Go to file" button
 * click on the weirdly named file
-* look at the address bar
+* look at the url in the address bar
 
 Brainlets like LTT will copy the url and eventually execute the payload, since they don't know about the "raw" button.
 Bypassing the rookie level will get you to this point.
