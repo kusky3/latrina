@@ -17,7 +17,7 @@ like ```wget http://localhost/;ls``` executes the payload
 of course this doesn't happen when escaping the url
 
 # testing
-use this waf and apply the url encodung patches  
+use this waf and apply the url encoding patches  
 https://raw.githubusercontent.com/theMiddleBlue/challenge-bypass-input-validation/main/index.php
 
 # bypassed
