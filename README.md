@@ -44,7 +44,7 @@ rookie level:
 ```
 should be pretty easy, we just need to find a command like base64  
 that can encode text without using pipe "|" or redirect "<>"
-e.g. goodbase -d "bG1hbwo="
+e.g. ```fakebase -d "bG1hbwo="```
 
 god-like level:
 ```
