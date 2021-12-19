@@ -30,6 +30,7 @@ https://raw.githubusercontent.com/theMiddleBlue/challenge-bypass-input-validatio
 '<<<' # same as the "|" bypass
 '>>>' # same as above
 '/'   # needed for paths, bypassed by encoding the payload with base64
+'&'   # needed to begin the command execution, replaced by ";"
 ```
 
 # todo
