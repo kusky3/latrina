@@ -10,4 +10,9 @@ bypass url encoding with nontrivial commands
 ```
 
 # TODO
-bypass ; and $
+```
+<
+>
+$
+;
+```
