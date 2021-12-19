@@ -10,8 +10,8 @@ Brainlets like LTT will copy the url and eventually execute the payload, since t
 Bypassing the rookie level will get you to this point.  
 Bypassing the god-like level will get you the same, but on the raw content page, which is way nastier.  
 Create a file called ";whoami" and follow the steps above.
-When its url is pasted in the terminal, like ```wget http://localhost/;whoami```, the payload is executed.  
-can we bypass the entire url encoding set and execute nontrivial commands?
+When its url is pasted in the terminal, like ```wget http://localhost/;whoami```,  
+the payload is executed. Can we bypass the entire url encoding set and execute nontrivial commands?
 
 # testing
 use this waf and apply the url encoding patches  
