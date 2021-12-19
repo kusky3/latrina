@@ -8,7 +8,8 @@ bypass url encoding with nontrivial commands
 ```
 <marked-text data-owner-input="tree-finder-field" class="d-inline-block">$PAYLOAD</marked-text>
 ```
-now imagine this but with the "raw" button
+now imagine this but with the "raw" button  
+one could easily induce people to execute nontrivial shell commands by simply copy-pasting the raw content url 
 
 # bypassed
 ```
