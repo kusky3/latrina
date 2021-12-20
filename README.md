@@ -1,5 +1,5 @@
 # latrina
-bypass url encoding for nontrivial shell commands
+bypass url encoding for nontrivial shell commands and other copy-paste nightmares
 
 # cheatsheet  
 ### setting string variables without quotes    
