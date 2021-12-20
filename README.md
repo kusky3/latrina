@@ -6,7 +6,7 @@ bypass url encoding for nontrivial shell commands and other copy-paste nightmare
 `variable=('a')`  
 ### separating fields without spaces 
 `echo$IFS$a`
-### separating fields without spaces and curly brackets
+### separating fields without spaces or curly brackets
 `a=('a');echo$IFS$a` 
 ### piping without pipes  
 `wc$IFS-l$IFS<$IFS<(ls)`     
