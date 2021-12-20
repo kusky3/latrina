@@ -3,14 +3,14 @@ bypass url encoding for nontrivial shell commands
 
 # cheatsheet  
 ### setting string variables without quotes    
-`a="test"`  
-`variable=('test')`  
+`a="a"`  
+`variable=('a')`  
 ### separating fields without spaces  
 `echo $a`  
 `echo$IFS$a`
 ### piping without pipes  
 `ls | wc -l`      
-`wc -l < <(ls)`     
+`wc$IFS-l$IFS<$IFS<(ls)`     
 ### concatenating variables to strings
 `echo$IFSa`     
 `a=('a');echo$IFS$a` 
