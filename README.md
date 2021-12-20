@@ -1,12 +1,11 @@
 # latrina
-copypaste nightmares 
 * go to https://raw.githubusercontent.com/kusky3/latrina/main/test''/harmless.sh
 * read the content
 * copy the url  
 * run `curl -s $URL | bash` 
 * get fucking owned and learn to escape  
 
-#   
+# copypaste nightmares 
 #### setting string variables without quotes    
 `a=('a')`  
 #### separating fields without spaces 
