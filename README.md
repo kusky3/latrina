@@ -5,7 +5,7 @@ Social engineering code execution with github
 * read the content
 * copy the url  
 * run `curl -s $URL | bash` 
-* get fucking owned and learn to escape the urls
+* get owned and learn to escape the urls
 
 ## other copypaste nightmares 
 #### setting string variables without quotes    
