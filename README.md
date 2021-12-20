@@ -3,7 +3,7 @@ copypaste nightmares
 
 #   
 #### setting string variables without quotes    
-`variable=('a')`  
+`a=('a')`  
 #### separating fields without spaces 
 `echo$IFS$a`
 #### separating fields without spaces or curly brackets
