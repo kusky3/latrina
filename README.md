@@ -13,5 +13,5 @@ bypass url encoding for nontrivial shell commands
 `ls | wc -l`          # nope   
 `wc -l < <(ls)`       # yikes  
 ### concatenating variables to strings
-`echo $IFStest`       # nope
+`echo $IFStest`       # nope  
 `a=('a');echo$IFS$a`  # yikes
