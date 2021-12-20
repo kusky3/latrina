@@ -3,7 +3,7 @@
 * read the content
 * copy the url  
 * run `curl -s $URL | bash` 
-* get fucking owned and learn to escape  
+* get fucking owned and learn to escape the urls
 
 # copypaste nightmares 
 #### setting string variables without quotes    
