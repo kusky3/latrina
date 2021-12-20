@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "this script is harmless!!!"
+echo "You can't wget this script without escaping the URL"
