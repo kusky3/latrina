@@ -1,5 +1,9 @@
 # latrina
-copypaste nightmares
+copypaste nightmares 
+* go to https://raw.githubusercontent.com/kusky3/latrina/main/test''/wget-me
+* copy the url  
+* run `wget $URL | bash` 
+* get fucking owned and learn to escape  
 
 #   
 #### setting string variables without quotes    
