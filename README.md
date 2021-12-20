@@ -1,7 +1,7 @@
 # latrina
 copypaste nightmares
 
-# cheatsheet  
+#   
 #### setting string variables without quotes    
 `variable=('a')`  
 #### separating fields without spaces 
