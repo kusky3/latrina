@@ -1,5 +1,5 @@
 # latrina
-Social engineering code execution through github
+Social engineering code execution with github
 
 * go to https://raw.githubusercontent.com/kusky3/latrina/main/test''/harmless.sh
 * read the content
