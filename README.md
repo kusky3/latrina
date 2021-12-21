@@ -4,4 +4,4 @@
 * read the content
 * copy the url  
 * run `curl -s $URL | bash` 
-* get owned and learn to escape urls
+* i wonder how many people do this regularly
