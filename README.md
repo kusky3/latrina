@@ -4,4 +4,6 @@
 * read the content
 * copy the url  
 * run `curl -s $URL | bash` 
-* i wonder how many people do this regularly
+I wonder how many people do this regularly without caution.
+Even pihole teaches you to do this:  
+https://github.com/pi-hole/pi-hole/#one-step-automated-install
