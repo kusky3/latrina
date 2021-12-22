@@ -8,3 +8,4 @@
 I wonder how many people do this regularly without caution.
 Even pihole teaches you to do it:    
 https://github.com/pi-hole/pi-hole/#one-step-automated-install
+The same can be done with release files.
